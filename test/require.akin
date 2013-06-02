@@ -1,0 +1,10 @@
+if !LOADED
+  print("File loaded!")
+  LOADED = true
+  require("test/require.akin")
+else
+  print("File required!")
+end
+
+# => File loaded!
+# => File required!

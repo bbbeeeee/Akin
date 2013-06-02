@@ -1,0 +1,15 @@
+# Methoc definition
+
+# Method names can end with ? or !
+# If no parameters, parenthesis can be skipped.
+To no_args? is to print("indeed") end
+
+no_args?
+# => indeed
+
+To call_me! with name, calling is to: print(name, "driiiing!", calling), then end.
+
+call_me!("bob", "bill")
+# => bob
+# => driiiing!
+# => bill

@@ -1,0 +1,10 @@
+if true
+  print("ok")
+end
+# => ok
+
+If 1 is greater than 1, print("uho...")
+If not
+  print("ok")
+end
+# => ok

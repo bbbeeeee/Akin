@@ -1,0 +1,37 @@
+# Logical operators
+
+print(false)
+# => false
+
+print(true)
+# => true
+
+print(true)
+# => true
+
+print(true)
+# => true
+
+print(1)
+# => 1
+
+print(nil)
+# => null
+
+print(false)
+# => false
+
+print(false)
+# => false
+
+print(true)
+# => true
+
+print(true)
+# => true
+
+print(1 < 4)
+# => true
+
+print(1 > 2)
+# => false

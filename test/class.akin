@@ -1,0 +1,18 @@
+# Class definition
+
+print(self.class.name)
+# => Object
+
+A Language is a type of Object
+You can initialize name which is to @name = name end
+To name is to @name end
+That is all it has and can do.
+
+lang = Language.new("Akin")
+
+print(lang.name)
+# => Akin
+print(lang.class.name)
+# => Language
+print(Language.superclass.name)
+# => Object

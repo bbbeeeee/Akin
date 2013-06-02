@@ -1,0 +1,27 @@
+# Constants start with a capital letter.
+X = 1
+
+print(X)
+# => 1
+
+ConstantTest is a type of Object
+  Y = 2
+
+  To get_y is to
+    # Constants are stored at class-level and shared by all instances.
+    Y
+  end
+  
+  To get_x is to
+    # Constants are looked up in parent classes.
+    X
+  end
+end
+
+constant_test = ConstantTest.new
+
+print(constant_test.get_x)
+# => 1
+
+print(constant_test.get_y)
+# => 2
