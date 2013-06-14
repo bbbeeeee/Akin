@@ -2,3 +2,4 @@ build
 src/Akin/lang/*AkinLexer.java
 src/Akin/lang/*AkinParser.java
 src/Akin/lang/*.tokens
+src/Akin/lang/*.DS_Store
