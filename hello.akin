@@ -1,0 +1,6 @@
+Name = input_of("What is your name?  
+")
+ 
+write("Hello, " + Name)
+ 
+write("Welcome to Akin!")
