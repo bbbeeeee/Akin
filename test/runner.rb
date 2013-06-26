@@ -61,4 +61,4 @@ class TestRunner
     end
 end
 
-TestRunner.new("bin/akin", "test/*.akin", File.dirname(__FILE__) + "/..").run_and_exit!
+TestRunner.new("./akin", "test/*.akin", File.dirname(__FILE__) + "/..").run_and_exit!
