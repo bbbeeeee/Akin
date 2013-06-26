@@ -20,6 +20,47 @@ English syntax (take a look at the parser --- in ANTLR).
 The language chokes up extremely with classes and objects right now. Any nesting of 
 'code blocks' or sentences also cause extremely slow run times.
 
+Prerequisites
+----------
+* Ruby (1.8.7+ or probably most versions you would have)
+* Java/JDK 1.7
+* Apache Ant
+
+Getting Started
+---------------
+
+First of all, get the repo and ```cd``` into it:
+```
+$ git clone http://github.com/brandontruong--/Akin.git
+$ cd Akin
+```
+Then compile it:
+```
+$ ant
+```
+
+While in the same directory, try running the following for a pleasant surprise:
+```
+$ ./akin hello.akin
+```
+
+For some more samples go to the ```test``` directory.
+
+To run them, do the above command but replace ```hello.akin``` with ```test/[CHOSEN FILE]```.
+
+These should give you an OK (fine... pretty bad) feel for the syntax.
+
+Some aims for the future
+-------------------------
+
+* Some adequate documentation
+* Speeding up especially OOP stuff
+* Some adequate documentation
+* Adding more flexibility
+* Some adequate documentation
+* Javascript to Akin converter (far fetched idea...)
+* Some adequate documentation.
+
 Credits
 -------
 ---
