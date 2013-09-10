@@ -48,7 +48,10 @@ For some more samples go to the ```test``` directory.
 
 To run them, do the above command but replace ```hello.akin``` with ```test/[CHOSEN FILE]```.
 
-These should give you an OK (fine... pretty bad) feel for the syntax.
+NOTICE
+------------
+The algorithm that contains the majority of the NLP functionality is not online yet because it is still in elementary form.
+Contact Brandon Truong if you'd like to see it or help out with it.
 
 Some aims for the future
 -------------------------
